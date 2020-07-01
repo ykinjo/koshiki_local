@@ -14,7 +14,6 @@ RUN yum -y install \
     httpd \
     mysql-devel \
     mysql-libs \
-#    mod_ssl \
     php \
     php-cli \
     php-imap \
@@ -98,13 +97,6 @@ RUN sed -i \
     -e 's~^;user_ini.filename =$~user_ini.filename =~g' \
     -e 's~^sendmail_path = /usr/sbin/sendmail -t -i$~sendmail_path = /usr/bin/msmtp -C /etc/msmtprc -t -i~g' \
     /etc/php.ini
-
-#RUN echo '<?php phpinfo(); ?>' > /var/www/html/index.php
-
-#
-# Add msmtp example configuration
-#
-RUN curl http://msmtp.sourceforge.net/doc/msmtprc.txt -o /etc/msmtprc
 
 #
 # Copy files into place
