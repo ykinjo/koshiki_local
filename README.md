@@ -1,5 +1,8 @@
 # koshiki_local
 
+H1 「甑島方言アクセントデータベース」の検索システム (The search system for "Accent Database of Koshikijima Japanese")
+
+
 - ローカルマシンで検索システムを起動する
 
 `
