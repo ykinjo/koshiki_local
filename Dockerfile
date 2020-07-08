@@ -1,6 +1,6 @@
 FROM centos:7.8.2003
 
-MAINTAINER Kinjo <kinjo@ninjal.ac.jp>
+MAINTAINER Yumiko Kinjo <kinjo@ninjal.ac.jp>
 
 #
 # Import the Centos-6 RPM GPG key to prevent warnings and Add EPEL Repository
