@@ -1,4 +1,0 @@
-127.0.0.1 - - [01/Jul/2020:17:38:28 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16 (internal dummy connection)"
-127.0.0.1 - - [01/Jul/2020:17:38:29 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16 (internal dummy connection)"
-127.0.0.1 - - [01/Jul/2020:17:38:30 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16 (internal dummy connection)"
-127.0.0.1 - - [01/Jul/2020:17:38:31 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16 (internal dummy connection)"
