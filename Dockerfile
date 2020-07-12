@@ -26,6 +26,7 @@ RUN yum -y install \
     php-tidy \
     php-xml \
     php-gd \
+    msmtp \
     && yum -y update bash \
     && rm -rf /var/cache/yum/* \
     && yum clean all
