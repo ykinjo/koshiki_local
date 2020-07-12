@@ -26,7 +26,6 @@ RUN yum -y install \
     php-tidy \
     php-xml \
     php-gd \
-    msmtp \
     && yum -y update bash \
     && rm -rf /var/cache/yum/* \
     && yum clean all
@@ -45,7 +44,7 @@ RUN sed -i \
     -e 's~^ServerTokens OS$~ServerTokens Prod~g' \
     -e 's~^#ExtendedStatus On$~ExtendedStatus On~g' \
     -e 's~^DirectoryIndex \(.*\)$~DirectoryIndex \1 index.php~g' \
-#    -e 's~^NameVirtualHost \(.*\)$~#NameVirtualHost \1~g' \
+    -e 's~^NameVirtualHost \(.*\)$~#NameVirtualHost \1~g' \
     /etc/httpd/conf/httpd.conf
 
 #
