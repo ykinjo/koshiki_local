@@ -32,9 +32,9 @@ RUN yum -y install \
     && yum clean all
 
 #
-# UTC Timezone & Networking
+# Timezone & Networking
 #
-RUN ln -sf /usr/share/zoneinfo/UTC /etc/localtime \
+RUN ln -sf /usr/share/zoneinfo/Asia/Tokyo /etc/localtime \
     && echo "NETWORKING=yes" > /etc/sysconfig/network
 
 #
