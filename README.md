@@ -5,7 +5,7 @@
 - ローカルマシンで検索システムを起動し、ブラウザで "http://localhost:8080" にアクセスする。
 
 `
-$ docker run -d --rm --name koshiki_local -p 80:80 -v {YOUR DATA PATH}/html/:/var/www/html ykinjo/koshiki_local`
+$ docker run -d --rm --name koshiki_local -p 8080:80 -v {YOUR DATA PATH}/html/:/var/www/html ykinjo/koshiki_local`
 
 
 - 検索システムを停止する。
